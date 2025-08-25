@@ -38,18 +38,6 @@ sistema-de-cadastro/
 - Bootstrap 5
 - Bootstrap Icons
 
-## Personalização
-
-Você pode personalizar as cores do sistema editando as variáveis CSS no arquivo `css/style.css`:
-
-```css
-:root {
-    --primary-color: #6c5ce7;
-    --secondary-color: #a29bfe;
-    --dark-color: #2d3436;
-    /* ... outras cores */
-}
-
 ## Como usar
 
 1. Crie uma pasta para o projeto
@@ -112,3 +100,16 @@ Clique no botão "Ver" em qualquer jogo para visualizar informações detalhadas
 - [ ] Compartilhamento de lista de jogos
 - [ ] Sistema de empréstimos de jogos
 - [ ] Integração com APIs de jogos (IGDB, RAWG)
+
+## Personalização
+
+Você pode personalizar as cores do sistema editando as variáveis CSS no arquivo `css/style.css`:
+
+```css
+:root {
+    --primary-color: #6c5ce7;
+    --secondary-color: #a29bfe;
+    --dark-color: #2d3436;
+    /* ... outras cores */
+}
+
